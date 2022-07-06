@@ -8,6 +8,39 @@
 
     <body>
         <h1><a href="index.html">WEB</a></h1>
+        <!-- <input type="button" value="day" onclick="
+        document.querySelector('body').style.background = 'white';
+        document.querySelector('body').style.color = 'black';
+        ">
+        <input type="button" value="night" onclick="
+        document.querySelector('body').style.background = 'black';
+        document.querySelector('body').style.color = 'white';
+        "> -->
+        <!-- <input id="day_night" type="button" value="night" onclick="
+        if(document.querySelector('#day_night').value === 'night'){
+            document.querySelector('body').style.background = 'black';
+            document.querySelector('body').style.color = 'white';
+            document.querySelector('#day_night').value = 'day';
+        }
+        else{
+            document.querySelector('body').style.background = 'white';
+            document.querySelector('body').style.color = 'black';
+            document.querySelector('#day_night').value = 'night';
+        }
+        "> -->
+        <input type="button" value="night" onclick="
+        var target = document.querySelector('body');
+        if(this.value === 'night'){
+            target.style.background = 'black';
+            target.style.color = 'white';
+            this.value = 'day';
+        }
+        else{
+            target.style.background = 'white';
+            target.style.color = 'black';
+            this.value = 'night';
+        }
+        ">
         <div id="grid">
             <ol>
                 <li><a href="1.html">HTML</a></li>

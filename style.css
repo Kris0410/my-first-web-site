@@ -2,7 +2,7 @@ body{
     margin: 0px;
 }
 a{ /* a = Selector (선택자) */
-    color: black; /* Declaration (선언, 효과), color = property, black = value */ 
+    color: blue; /* Declaration (선언, 효과), color = property, black = value */ 
     /* text-decoration: none; */
 }
 /* 선언 우선 순위 id(하나만 선언한다), class, tag, 순서 (참고 : css selector 검색)*/
